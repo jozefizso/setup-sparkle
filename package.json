@@ -1,0 +1,28 @@
+{
+  "name": "setup-sparkle",
+  "version": "0.1.0",
+  "description": "Setup Sparkle framework tools in GitHub Actions workflow.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jozef Izso",
+  "keywords": [
+    "actions",
+    "setup",
+    "Sparkle",
+    "framework",
+    "apple",
+    "macos",
+    "xcode",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jozefizso/setup-sparkle.git"
+  }
+}
