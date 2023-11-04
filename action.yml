@@ -1,0 +1,12 @@
+name: 'Setup Sparkle framework tools'
+description: 'Set up a specific version of the Sparkle framework tools in the PATH'
+author: 'Jozef Izso'
+branding:
+  icon: play
+  color: green
+inputs: 
+  version:
+    description: 'Sparkle framework version to use. Example: 2.5.1'
+runs:
+  using: 'node20'
+  main: 'src/index.js'
