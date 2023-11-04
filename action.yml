@@ -9,4 +9,4 @@ inputs:
     description: 'Sparkle framework version to use. Example: 2.5.1'
 runs:
   using: 'node20'
-  main: 'src/index.js'
+  main: 'dist/index.js'

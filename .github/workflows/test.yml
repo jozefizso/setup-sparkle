@@ -15,14 +15,6 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
 
-    - name: setup node
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
-
-    - name: npm ci
-      run: npm ci
-
     - name: setup sparkle
       uses: ./
       with:
