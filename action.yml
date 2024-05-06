@@ -6,7 +6,7 @@ branding:
   color: green
 inputs: 
   version:
-    description: 'Sparkle framework version to use. Example: 2.5.1'
+    description: 'Sparkle framework version to use. Example: 2.6.2'
 runs:
   using: 'node20'
   main: 'dist/index.js'
