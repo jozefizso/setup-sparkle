@@ -18,7 +18,7 @@ jobs:
     - name: setup sparkle
       uses: ./
       with:
-        version: 2.6.2
+        version: 2.8.0
 
     - name: show tools
       run: ls -la "$SPARKLE_BIN"
