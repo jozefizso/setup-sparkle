@@ -13,7 +13,7 @@ exlusively for macOS applications only and it is not multi-platfomr.
 
 ```yml
 - name: setup sparkle
-  uses: jozefizso/setup-sparkle@v1
+  uses: jozefizso/setup-sparkle@v2
   with:
     version: 2.8.0
 
