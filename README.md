@@ -15,7 +15,7 @@ exlusively for macOS applications only and it is not multi-platfomr.
 - name: setup sparkle
   uses: jozefizso/setup-sparkle@v1
   with:
-    version: 2.6.2
+    version: 2.8.0
 
 - name: generate appcast
   run: generate_appcast /path/to/your/updates_folder/
@@ -24,8 +24,10 @@ exlusively for macOS applications only and it is not multi-platfomr.
 List of Sparkle releases: <https://github.com/sparkle-project/Sparkle/releases>
 
 > [!IMPORTANT]  
-> Sparkle v2.6.2 is an important security update. Please, ensure you are using
-> the latest version.
+> Sparkle [v2.6.2](https://github.com/sparkle-project/Sparkle/releases/tag/2.6.2)
+> and [v2.7.3](https://github.com/sparkle-project/Sparkle/releases/tag/2.7.3)
+> are important security updates.
+> Please, ensure you are using [the latest version of Sparkle](https://github.com/sparkle-project/Sparkle/releases).
 
 
 ### Build tools
@@ -38,7 +40,7 @@ the `./bin` directory is.
 
 ```shell
 $ echo "$SPARKLE_BIN"
-/Users/runner/hostedtoolcache/sparkle-framework-tools/2.6.2/x64/bin
+/Users/runner/hostedtoolcache/sparkle-framework-tools/2.8.0/x64/bin
 ```
 
 Read the [Sparkle documentation](https://sparkle-project.org/documentation/) for information
