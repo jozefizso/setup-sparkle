@@ -1,6 +1,6 @@
 {
   "name": "setup-sparkle",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Setup Sparkle framework tools in GitHub Actions workflow.",
   "license": "MIT",
   "engines": {
